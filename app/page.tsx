@@ -3,93 +3,37 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div id ='body'>
+        <div id ='wrap'>
+            <h1> 
+                SHOPP MALL
+                <img  src = 'data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%22-0.5%20-0.5%2014%2014%22%20height%3D%2214%22%20width%3D%2214%22%3E%3Cg%20id%3D%22store-2--store-shop-shops-stores%22%3E%3Cpath%20id%3D%22Union%22%20fill%3D%22%23000%22%20fill-rule%3D%22evenodd%22%20d%3D%22M1.174642857142857%200.8375714285714286c0.22285714285714286%20-0.4902857142857143%200.7122142857142858%20-0.8412857142857143%201.2600714285714285%20-0.8375714285714286h8.130571428571429l-0.0018571428571428573%200%200.0037142857142857147%200.4642857142857143V0h-0.0018571428571428573c0.5478571428571428%20-0.0037142857142857147%201.0372142857142856%200.3472857142857143%201.2600714285714285%200.8375714285714286l0.0009285714285714287%200.0018571428571428573%200.8422142857142858%201.8710714285714287H0.3315L1.1737142857142857%200.8394285714285715l0%20-0.0018571428571428573ZM0%203.8712142857142853h13v1.2675c0%200.24514285714285716%20-0.08728571428571429%200.4884285714285715%20-0.2553571428571429%200.6741428571428572a0.9072142857142858%200.9072142857142858%200%200%201%20-0.6732142857142858%200.30364285714285716H0.9285714285714286a0.9072142857142858%200.9072142857142858%200%200%201%20-0.6732142857142858%20-0.30364285714285716A1.0075%201.0075%200%200%201%200%205.138714285714285V3.8712142857142853Zm0.9285714285714286%203.878642857142857a0.4642857142857143%200.4642857142857143%200%200%201%200.4642857142857143%20-0.4642857142857143h10.214285714285715a0.4642857142857143%200.4642857142857143%200%200%201%200.4642857142857143%200.4642857142857143V12.071428571428571a0.9285714285714286%200.9285714285714286%200%200%201%20-0.9285714285714286%200.9285714285714286h-1.1653571428571428v-3.5192857142857146a0.195%200.195%200%200%200%20-0.065%20-0.14392857142857143%200.23214285714285715%200.23214285714285715%200%200%200%20-0.15785714285714286%20-0.059428571428571435H7.904928571428572a0.23307142857142857%200.23307142857142857%200%200%200%20-0.15785714285714286%200.059428571428571435%200.195%200.195%200%200%200%20-0.065%200.14392857142857143l0%203.5192857142857146H1.8571428571428572a0.9285714285714286%200.9285714285714286%200%200%201%20-0.9285714285714286%20-0.9285714285714286V7.749857142857143ZM2.323285714285714%209.285714285714286v1.1700000000000002a0.4642857142857143%200.4642857142857143%200%200%200%200.4642857142857143%200.4642857142857143h2.7987142857142855a0.4642857142857143%200.4642857142857143%200%200%200%200.4642857142857143%20-0.4642857142857143V9.285714285714286a0.4642857142857143%200.4642857142857143%200%200%200%20-0.4642857142857143%20-0.4642857142857143H2.7875714285714284a0.4642857142857143%200.4642857142857143%200%200%200%20-0.4642857142857143%200.4642857142857143Z%22%20clip-rule%3D%22evenodd%22%20stroke-width%3D%221%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E' sizes="width:5px;height:5px;"></img>
+            </h1>
+       </div>
+        <div id ='nhom1'>
+            <img src = 'https://down-vn.img.susercontent.com/file/9c3bcca596a19b937f569a9d1887f74f' width={200} height={200}></img>
+            <img src = 'https://down-vn.img.susercontent.com/file/vn-11134201-23030-r8yag7mgufovb0' width={200} height={200}></img>
+            <img src = 'https://down-vn.img.susercontent.com/file/3d18a553b3dcb35f032ff87307564be5' width={200} height={200}></img>
+            <div>
+                <a href ='/ao'><h2>Áo thun form rộng Paradox tay lỡ - Unisex - In hình - THE REVERIE - Màu đen FREESHIP</h2></a>  
+                <h2> 200 K <a href ='/thanhtoan'>MUA</a></h2>
+    
+            </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <div id='nhom2'>
+            <img src = 'https://down-vn.img.susercontent.com/file/cn-11134211-7r98o-lm32jhqsjkma6f' width={200} height={200}></img>
+            <img src = 'https://down-vn.img.susercontent.com/file/cn-11134211-7r98o-lm32jhqskz6qed' width={200} height={200}></img>
+            <a href ='/quan'><h2>iMaodou Quần jeans Đen Lưng Thun Ống Rộng Phối Dây Rút Có size Lớn Phong Cách Thời Trang Dành Cho Nam Giới FREESHIP</h2></a>  
+            <h2> 300 K <a href ='/thanhtoan'>MUA</a></h2>
+        
+        </div>
+        <div id='nhom3'>
+            <img src = 'https://down-vn.img.susercontent.com/file/sg-11134201-23030-zf4dqaypuqov14' width={200} height={200}></img>
+            <img src = 'https://down-vn.img.susercontent.com/file/sg-11134201-23030-b7woxrypuqov58' width={200} height={200}></img>
+            <a href ='/giay'><h2>Renben.versatile student sneakers giày da không thấm nước của nam giới low-top little white shoes giày chạy bộ thông thường FREESHIP</h2></a>  
+            <h2>  3.200k <a href ='/thanhtoan'>MUA</a></h2>
+        
+        </div>
+    </div>
   )
 }
