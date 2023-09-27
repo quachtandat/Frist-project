@@ -1,6 +1,6 @@
 const Mota1 =()=>{
     return(
-        <div>
+        <div id ='body'>
             <h1>MÔ TẢ CHI TIẾT</h1>
             <ul>
                 <li><a>Màu sắc: Trắng, đen</a></li>

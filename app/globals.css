@@ -7,8 +7,12 @@
   margin-right: auto;
 }
 #wrap{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 40px;
   color:white;
-  font-size: 10px;
+  font-size: 30px;
   background-color: red;
 }
 #nhom1{
@@ -30,9 +34,40 @@
 }
 
 #nhom4{
+  
+  width: 500px;
   height: 100px;
-  weight: 100px;
-  background-color: rgb(69, 87, 192);
-  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  background-color: rgb(103, 108, 201);
 }
+#nhom5{
+  
+  width: 500px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+  background-color: red;
+  font-size:large;
+}
+
+a.button.facebook
+{
+    padding-top: 5px;
+    float: left;
+    padding-left: 200px;
+    font-size: 40px;
+}
+
+a.button.youtube
+{
+    padding-top: 5px;
+    float: left;
+    padding-left: 200px;
+    font-size: 40px;
+}
+
+
 

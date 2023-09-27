@@ -1,6 +1,6 @@
 const Mota1 =()=>{
     return(
-        <div>
+        <div id ='body'>
             <h1>MÔ TẢ CHI TIẾT</h1>
             <a>Áo thun form rộng THE REVERIE là sản phẩm áo thun nghệ thuật với thiết kế độc đáo dựa trên nền chất liệu áo phông tay lỡ Basic, vừa đem lại cho bạn cảm giác thoải mái vừa thể hiện cá tính riêng của bạn thông qua những hoạ tiết, hình vẽ do chính đội ngũ Designer của Paradox thiết kế.
 
